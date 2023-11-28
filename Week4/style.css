@@ -1,0 +1,34 @@
+* {
+  border: 1px solid black;
+}
+
+#main-header {
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.sub-header {
+  color: green;
+}
+
+p.text-content {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 15px;
+}
+
+h1, h2, .text-content {
+  font-family: Arial, sans-serif;
+}
+
+.item-list li {
+  color: red;
+}
+
+.text-content + .sibling {
+  font-style: italic;
+}
+
+a:hover {
+  color: blue;
+}
