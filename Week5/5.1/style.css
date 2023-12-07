@@ -32,7 +32,11 @@ body > form {
 
 /* Activity 5.3: Media queries
   -Add CSS that checks for device hover capabilities */
-
+  @media (min-width: 550px) {
+    nav > .fa-bars {
+      display: none;
+    }
+  }
 
 @media (min-width: 2000px) {
   * {
