@@ -258,7 +258,9 @@ phrase.push(`${curr.company.catchPhrase} ${curr.company.bs}`)
 console.log(phrase);
 
 // query the HTML for the class class-week, then use forEach to change the text content
-const classWeekElements = document.querySelectorAll('.class-week');
-classWeekElements.forEach(elem => {
-  elem.textContent = 'New Text';
+const classes = document.querySelectorAll(".class-week");
+console.log(classes);
+
+classes.forEach((htmlElement, i) => {
+  htmlElement.textContent = `Text content has changed, Class Week is ${i}`;
 });
